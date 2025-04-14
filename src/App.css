@@ -1,0 +1,118 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+ /* padding: 2rem;*/
+  text-align: center;
+}
+
+/*body{
+  background-color: #ffff;
+}*/
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+/*.carousel-caption {
+  margin-top: 300px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(76, 70, 70, 0.7);
+  border-radius: 5px;
+}*/
+
+.carousel-item {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.section {
+  height: 100%; /* Altura de la ventana visible */
+  overflow: hidden;
+  top: 0;
+  left: 0;
+
+  background-position: center;
+  background-image: url('../../../public/fondoacercade.jpg');
+  background-size: cover;
+/*   will-change: transform;  Optimiza el rendimiento */
+
+
+
+   padding: 5em;
+   display: flex;
+   flex-direction: row; /* Por defecto, horizontal */
+   justify-content: space-between; /* Espaciado entre elementos */
+   align-items: center;
+   justify-content: center;
+ }
+
+
+
+ .element {
+   display: flex;
+   flex: 1;
+   margin: 10px;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .tittle{
+   font-size: 3.5em;
+   color: rgb(16, 193, 238);
+   margin-bottom: 0%;
+ }
+
+ .text{
+   color: rgb(82, 75, 75);
+   font-size: 1.2em;
+ }
+
+.simpleSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subTittle{
+  color:#ff0000;
+  font-size: 1.5em;
+  font-family: 'Tinos';
+}
+
+/*Acerca del evento*/
+@media (max-width: 768px) {
+  .section {
+  padding: 3em;
+    flex-direction: column; 
+  }
+
+  .element {
+   margin: 0px;
+    width: 100%;
+  }
+
+  .tittle{
+      font-size: 2em;
+    }
+
+  .text{
+      font-size: 1em;
+  }
+/*SIMPLESECTION---------------------------------------------------------------------------------------------------------------------------------*/
+  
+.subTittle{
+font-size: .8em;
+}
+}

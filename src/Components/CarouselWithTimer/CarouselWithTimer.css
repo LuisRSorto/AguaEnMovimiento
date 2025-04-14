@@ -1,0 +1,42 @@
+.carousel-container {
+    position: relative; /* Para que la superposición se posicione correctamente */
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* O una altura fija si lo prefieres */
+    overflow: hidden; /* Evita que las imágenes se desborden */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px 0px 150px 0px;
+    padding-left: 0px;
+  }
+
+  .control-arrow{
+    display: none;
+  }
+
+  .carousel-image {
+    display: block;
+    width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Cubre el contenedor sin deformar demasiado */
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    font-size: medium;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para el punto central */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo más opaco */
+    color: white;
+    padding: 20px; /* Aumenta el padding para más espacio */
+    border-radius: 10px; /* Bordes más redondeados */
+    z-index: 10; /* Asegura que esté encima de la imagen */
+    text-align: center; /* Centra el texto dentro del overlay */
+  }
+  
+  .countdown-container h1 {
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente del timer */
+  }

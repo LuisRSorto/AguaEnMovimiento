@@ -1,0 +1,50 @@
+.footer {
+    background-color: rgb(0, 47, 108);
+    color: white;
+    padding:20px 0px 20px 0px;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+   /* position: sticky; /* Fija el footer a la ventana */
+    bottom: 0; /* Lo pega a la parte inferior */
+    left: 0; /* Lo alinea a la izquierda */
+    z-index: 100; /* Asegura que esté por encima de otros elementos si es necesario */
+  }
+  
+  .footer-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .contact-icons {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center; /* Centra los iconos verticalmente en el layout column */
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+      align-items: center; /* Centra los elementos verticalmente en el layout row */
+      text-align: left;
+      justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    }
+  
+    .contact-icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center; /* Asegura la alineación vertical de los iconos en fila */
+    }
+  }
