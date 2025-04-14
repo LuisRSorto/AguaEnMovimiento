@@ -49,7 +49,7 @@ function App() {
         <Box sx={{display:'flex', flexWrap: 'wrap',  justifyContent: { xs: 'center', md: 'space-around' }, alignItems: { xs: 'none', md: 'center' }, marginBottom: '40px'}}>
           <img 
             width="200px"
-            style={{margin: '30px 0px 30px 0px'}} 
+            style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
             src={'/images/usac.png'} 
@@ -59,9 +59,9 @@ function App() {
             alt='usac' 
           />
           <img 
-            width="200px"
-            style={{margin: '30px 0px 30px 0px'}} 
-            height="auto"
+            width="130px"
+            style={{margin: '30px 20px 30px 0px'}} 
+            height="150px"
             className="patroImg" 
             src={'images/upnfm.png'}
             onClick={() =>
@@ -72,7 +72,7 @@ function App() {
           
           <img 
             width="200px"
-            style={{margin: '30px 0px 30px 0px'}} 
+            style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
             src={'images/ucr.png'} 
@@ -84,7 +84,7 @@ function App() {
 
             <img 
             width="200px"
-            style={{margin: '30px 0px 30px 0px'}} 
+            style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
             src={'images/tecm.png'} 
@@ -93,19 +93,11 @@ function App() {
             )}
             alt='tecm' 
           />
-
-          <img 
-            width="220px" 
-            height="auto"
-            className="patroImg" 
-            src={'images/idrc.png'} 
-            onClick={() =>
-            (window.open('https://idrc-crdi.ca/en', '_blank')
-            )}
-            alt='idrc' />
+            <div style={{display:'flex', flexWrap: 'wrap', justifyContent:'center', alignItems:'center'}} >
             
             <img 
             width="220px" 
+            style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
             src={'images/csuca.png'} 
@@ -113,8 +105,21 @@ function App() {
             (window.open('https://seduca.csuca.org/index.php/miembros', '_blank')
             )}
             alt='csuca' />
+
             <img 
             width="220px" 
+            style={{margin: '30px 20px 30px 0px'}} 
+            height="auto"
+            className="patroImg" 
+            src={'images/idrc.png'} 
+            onClick={() =>
+            (window.open('https://idrc-crdi.ca/en', '_blank')
+            )}
+            alt='idrc' />
+
+            <img 
+            width="220px" 
+            style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
             src={'images/ctcap.png'} 
@@ -125,6 +130,7 @@ function App() {
 
             <img 
             width="220px" 
+            style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
             src={'images/SICA.png'} 
@@ -132,6 +138,7 @@ function App() {
             (window.open('https://www.sica.int/', '_blank')
             )}
             alt='SICA' />
+            </div>
         </Box> 
       </Container>
       <Footer/>

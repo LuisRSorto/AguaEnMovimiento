@@ -112,11 +112,4 @@ font-size: .8em;
 }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
-  .patroImg{
-    width: 170px;
-    height: auto;
-  }
-}
-
 
