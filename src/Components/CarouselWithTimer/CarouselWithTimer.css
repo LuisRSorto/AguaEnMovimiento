@@ -7,7 +7,7 @@
 
   ul {
     list-style-type: none;
-    margin: 0px 0px 150px 0px;
+    margin: 0;
     padding-left: 0px;
   }
 
@@ -24,10 +24,10 @@
   
   .carousel-overlay {
     position: absolute;
-    font-size: medium;
+    font-size: 16px;
     top: 50%; /* Centra verticalmente */
     left: 50%; /* Centra horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta para el punto central */
+    transform: translate(-50%, -50%); /* Ajusta para el punto central */  
     background-color: rgba(0, 0, 0, 0.7); /* Fondo más opaco */
     color: white;
     padding: 20px; /* Aumenta el padding para más espacio */
@@ -39,4 +39,15 @@
   .countdown-container h1 {
     margin: 0; /* Elimina el margen predeterminado del h1 */
     font-size: 1.2em; /* Ajusta el tamaño de la fuente del timer */
+  }
+
+  .carousel-item{
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-overlay {
+      width: 80%;
+      font-size: 12px;
+    }
   }

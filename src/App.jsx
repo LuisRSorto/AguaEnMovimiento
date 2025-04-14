@@ -7,14 +7,18 @@ import { Box, Container } from '@mui/material';
 import InformationPanels from './Components/Panels/informationPanels';
 import ImageSection from './Components/imageSection'
 import TextSection from './Components/textSection'
+import VideoSection from './Components/videoSection'
 
 function App() {
   const images = [
-    '/images/carousel1.png', // Asegúrate de que las rutas sean correctas
+    '/images/carousel1.png',
     '/images/carousel2.png',
     '/images/carousel3.png',
     '/images/carousel4.png',
   ];
+
+  const videoURL = '/videos/Aguaenmovimiento.mp4'; // Ruta a tu archivo .mp4 en la carpeta public o assets
+  const placeholderURL = '/images/carousel1.png';
 
   return (
     <>
@@ -25,9 +29,9 @@ function App() {
       <TextSection
       id='1'
       title= 'Acerca del Evento'
-      imageSrc='images/acercadelevento.png'
+      videoUrl='/videos/Aguaenmovimiento.mp4'
       />
-
+     
       <h1 id='2' >Módulos:</h1>
       <InformationPanels />
 

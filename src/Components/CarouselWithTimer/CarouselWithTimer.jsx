@@ -51,7 +51,6 @@ const CarouselWithTimer = ({ images }) => {
   }, [images.length]);
 
   return (
-    <div className='carru'>
     <Carousel showThumbs={false} dynamicHeight={false} showIndicators={false} showArrows={false} showStatus={false} transitionTime= {1}>
       <div className="carousel-item">
         <img
@@ -64,7 +63,6 @@ const CarouselWithTimer = ({ images }) => {
         <Countdown />
       </div>
     </Carousel>
-    </div>
   );
 };
 
