@@ -8,6 +8,7 @@ import InformationPanels from './Components/Panels/informationPanels';
 import ImageSection from './Components/imageSection'
 import TextSection from './Components/textSection'
 import VideoSection from './Components/videoSection'
+import BackgroundWaves from './Components/backgroundWaves'
 
 function App() {
   const images = [
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+    <BackgroundWaves />
       <NavBar/>
 
       <CarouselWithTimer images={images}/>
@@ -32,7 +34,7 @@ function App() {
       videoUrl='/videos/Aguaenmovimiento.mp4'
       />
      
-      <h1 id='2' >Módulos:</h1>
+      <h1 id='2' style={{color: "rgb(37, 0, 52)"}}>Módulos:</h1>
       <InformationPanels />
 
       <ImageSection
@@ -43,83 +45,91 @@ function App() {
       />
     
       <Container sx={{textAlign: 'center'}}>
-        <h2>Organizadores:</h2>
+        <h1 style={{color: "rgb(37, 0, 52)"}}>Organizadores:</h1>
         <Box sx={{display:'flex', flexWrap: 'wrap',  justifyContent: { xs: 'center', md: 'space-around' }, alignItems: { xs: 'none', md: 'center' }, marginBottom: '40px'}}>
           <img 
             width="200px"
             style={{margin: '30px 0px 30px 0px'}} 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'/images/usac.png'} 
             onClick={() =>
-            (window.open('https://www.apoautishn.org/', '_blank')
+            (window.open('https://usac.edu.gt/', '_blank')
             )}
-            alt='APO-AUTIST' 
+            alt='usac' 
           />
           <img 
             width="200px"
             style={{margin: '30px 0px 30px 0px'}} 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/upnfm.png'}
             onClick={() =>
-            (window.open('https://www.facebook.com/profile.php?id=100063723276220&locale=hi_IN', '_blank')
+            (window.open('https://www.upnfm.edu.hn/', '_blank')
             )}
-            alt='GINA' 
+            alt='upnfm' 
           />
           
           <img 
             width="200px"
             style={{margin: '30px 0px 30px 0px'}} 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/ucr.png'} 
             onClick={() =>
-            (window.open('https://owsd.net/network/honduras', '_blank')
+            (window.open('https://www.ucr.ac.cr/', '_blank')
             )}
-            alt='OWSD' 
+            alt='ucr' 
           />
 
             <img 
             width="200px"
             style={{margin: '30px 0px 30px 0px'}} 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/tecm.png'} 
             onClick={() =>
-            (window.open('https://www.facebook.com/FUNTEAH/?locale=hi_IN', '_blank')
+            (window.open('https://tec.mx/es/monterrey', '_blank')
             )}
-            alt='funteah' 
+            alt='tecm' 
           />
 
           <img 
             width="220px" 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/idrc.png'} 
             onClick={() =>
-            (window.open('https://www.unah.edu.hn/', '_blank')
+            (window.open('https://idrc-crdi.ca/en', '_blank')
             )}
-            alt='UNAH' />
+            alt='idrc' />
             
             <img 
             width="220px" 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/csuca.png'} 
             onClick={() =>
-            (window.open('https://www.unah.edu.hn/', '_blank')
+            (window.open('https://seduca.csuca.org/index.php/miembros', '_blank')
             )}
             alt='csuca' />
             <img 
             width="220px" 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/ctcap.png'} 
             onClick={() =>
-            (window.open('https://www.unah.edu.hn/', '_blank')
+            (window.open('https://www.incap.int/index.php/es/socios2/20-sistema-de-la-integracion-centroamericana', '_blank')
             )}
             alt='ctcap' />
 
             <img 
             width="220px" 
-            height="auto" 
+            height="auto"
+            className="patroImg" 
             src={'images/SICA.png'} 
             onClick={() =>
-            (window.open('https://www.unah.edu.hn/', '_blank')
+            (window.open('https://www.sica.int/', '_blank')
             )}
             alt='SICA' />
         </Box> 

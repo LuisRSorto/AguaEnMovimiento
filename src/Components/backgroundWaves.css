@@ -1,0 +1,38 @@
+.wave-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #a2d4f3, #d0f0ff);
+    bottom: 0;
+    left: 0;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    height: auto;
+    animation: wave-move 12s linear infinite;
+  }
+  
+  .wave1 {
+    opacity: 0.5;
+    animation-duration: 18s;
+  }
+  
+  .wave2 {
+    opacity: 0.3;
+    animation-duration: 24s;
+    animation-delay: -6s;
+  }
+  
+  @keyframes wave-move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

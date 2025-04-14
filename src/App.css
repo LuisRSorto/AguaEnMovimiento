@@ -65,7 +65,7 @@
 
  .tittle{
    font-size: 3.5em;
-   color: rgb(16, 193, 238);
+   color: rgb(37, 0, 52);
    margin-bottom: 0%;
  }
 
@@ -111,3 +111,12 @@
 font-size: .8em;
 }
 }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .patroImg{
+    width: 170px;
+    height: auto;
+  }
+}
+
+
