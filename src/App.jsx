@@ -94,7 +94,17 @@ function App() {
             alt='tecm' 
           />
             <div style={{display:'flex', flexWrap: 'wrap', justifyContent:'center', alignItems:'center'}} >
-            
+            <img 
+            width="220px" 
+            style={{margin: '30px 20px 30px 0px'}} 
+            height="auto"
+            className="patroImg" 
+            src={'images/idrccrdi.png'} 
+            onClick={() =>
+            (window.open('https://idrc-crdi.ca/en', '_blank')
+            )}
+            alt='idrccrdi' />
+
             <img 
             width="220px" 
             style={{margin: '30px 20px 30px 0px'}} 
@@ -105,17 +115,6 @@ function App() {
             (window.open('https://seduca.csuca.org/index.php/miembros', '_blank')
             )}
             alt='csuca' />
-
-            <img 
-            width="220px" 
-            style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
-            className="patroImg" 
-            src={'images/idrc.png'} 
-            onClick={() =>
-            (window.open('https://idrc-crdi.ca/en', '_blank')
-            )}
-            alt='idrc' />
 
             <img 
             width="220px" 
