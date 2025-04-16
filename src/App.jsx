@@ -47,8 +47,9 @@ function App() {
       <Container sx={{textAlign: 'center'}}>
         <h1 style={{color: "rgb(37, 0, 52)"}}>Organizadores:</h1>
         <Box sx={{display:'flex', flexWrap: 'wrap',  justifyContent: { xs: 'center', md: 'space-around' }, alignItems: { xs: 'none', md: 'center' }, marginBottom: '40px'}}>
+        <Box sx={{display:'flex', flexWrap: 'wrap', flexDirection: { xs: 'column', sm: 'row'}, justifyContent:'center', alignItems:'center'}} >
           <img 
-            width="200px"
+            width="220px"
             style={{margin: '30px 20px 30px 0px'}} 
             height="auto"
             className="patroImg" 
@@ -92,8 +93,9 @@ function App() {
             (window.open('https://tec.mx/es/monterrey', '_blank')
             )}
             alt='tecm' 
-          />
-            <div style={{display:'flex', flexWrap: 'wrap', justifyContent:'center', alignItems:'center'}} >
+            />
+          </Box>
+          <Box sx={{display:'flex', flexWrap: 'wrap', flexDirection: { xs: 'column', sm: 'row'}, justifyContent:'center', alignItems:'center'}} >
             <img 
             width="220px" 
             style={{margin: '30px 20px 30px 0px'}} 
@@ -137,7 +139,7 @@ function App() {
             (window.open('https://www.sica.int/', '_blank')
             )}
             alt='SICA' />
-            </div>
+            </Box>
         </Box> 
       </Container>
       <Footer/>
