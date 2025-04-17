@@ -51,7 +51,7 @@ const CarouselWithTimer = ({ images }) => {
   }, [images.length]);
 
   return (
-    <Carousel showThumbs={false} dynamicHeight={false} showIndicators={false} showArrows={false} showStatus={false} transitionTime= {1}>
+    <Carousel swipeable={false} showThumbs={false} dynamicHeight={false} showIndicators={false} showArrows={false} showStatus={false} transitionTime= {1}>
       <div className="carousel-item">
         <img
           src={images[currentIndex]}
