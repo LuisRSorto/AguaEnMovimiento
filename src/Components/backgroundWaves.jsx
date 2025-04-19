@@ -2,28 +2,30 @@ import React from 'react';
 import './backgroundWaves.css';
 
 const BackgroundWave = () => {
-    return (
-      <div className="wave-container">
-        <svg className="wave wave1" viewBox="0 0 1440 320">
+  return (
+    <div className="wave-container">
+      <div className="wave-wrapper">
+        <svg className="wave wave1" viewBox="0 0 2880 320" preserveAspectRatio="none">
           <path
-            fill="#cceeff"
-            d="M0,160L60,154.7C120,149,240,139,360,133.3C480,128,600,128,720,128C840,128,960,128,1080,149.3C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-          ></path>
+            fill="#66ccff"
+            d="M0,160 C360,80 720,240 1080,160 C1440,80 1800,240 2160,160 C2520,80 2880,160 2880,160 L2880,320 L0,320 Z"
+          />
         </svg>
-        <svg className="wave wave2" viewBox="0 0 1440 320">
+        <svg className="wave wave2" viewBox="0 0 2880 320" preserveAspectRatio="none">
           <path
-            fill="#99ddff"
-            d="M0,192L60,197.3C120,203,240,213,360,197.3C480,181,600,139,720,128C840,117,960,139,1080,165.3C1200,192,1320,224,1380,240L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-          ></path>
+            fill="#33bbff"
+            d="M0,180 C360,100 720,260 1080,180 C1440,100 1800,260 2160,180 C2520,100 2880,180 2880,180 L2880,320 L0,320 Z"
+          />
         </svg>
-        <svg className="wave wave3" viewBox="0 0 1440 320">
+        <svg className="wave wave3" viewBox="0 0 2880 320" preserveAspectRatio="none">
           <path
-            fill="#3399ff"
-            d="M0,224L60,229.3C120,235,240,245,360,240C480,235,600,213,720,186.7C840,160,960,128,1080,138.7C1200,149,1320,203,1380,229.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-          ></path>
+            fill="#0099e6"
+            d="M0,200 C360,120 720,280 1080,200 C1440,120 1800,280 2160,200 C2520,120 2880,200 2880,200 L2880,320 L0,320 Z"
+          />
         </svg>
       </div>
-    );
-  };
-  
-  export default BackgroundWave;
+    </div>
+  );
+};
+
+export default BackgroundWave;

@@ -1,38 +1,56 @@
 .wave-container {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    background: linear-gradient(to bottom, #a2d4f3, #d0f0ff);
-    bottom: 0;
-    left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #cceeff, #e6f9ff);
+}
+
+.wave-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200%; /* Asegura espacio para el desplazamiento */
+  height: auto; /* Ajusta la altura según necesites */
+  background-repeat: repeat-x;
+  background-size: auto 100%; /* Ajusta el tamaño vertical */
+  animation: wave-loop 15s linear infinite;
+  opacity: 0.6;
+}
+
+.wave1 {
+  background-image: url('/images/wave1-repeat.svg'); /* Reemplaza con tu SVG */
+  animation-duration: 20s;
+}
+
+.wave2 {
+  background-image: url('/images/wave2-repeat.svg'); /* Reemplaza con tu SVG */
+  animation-duration: 30s;
+  animation-delay: -5s;
+  opacity: 0.5;
+}
+
+.wave3 {
+  background-image: url('/images/wave3-repeat.svg'); /* Reemplaza con tu SVG */
+  animation-duration: 40s;
+  animation-delay: -10s;
+  opacity: 0.4;
+}
+
+@keyframes wave-loop {
+  0% {
+    transform: translateX(0);
   }
-  
-  .wave {
-    position: absolute;
-    bottom: 0;
-    width: 200%;
-    height: auto;
-    animation: wave-move 12s linear infinite;
+  100% {
+    transform: translateX(-50%); /* Desplaza la mitad del ancho para un bucle */
   }
-  
-  .wave1 {
-    opacity: 0.5;
-    animation-duration: 18s;
-  }
-  
-  .wave2 {
-    opacity: 0.3;
-    animation-duration: 24s;
-    animation-delay: -6s;
-  }
-  
-  @keyframes wave-move {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
+}

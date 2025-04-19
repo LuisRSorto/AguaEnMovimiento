@@ -16,10 +16,12 @@
   }
 
   .carousel-image {
-    display: block;
-    width: 100%;
+    /*display: block;*/
+    border-radius: 10px;
+    width: 85%;
     height: auto; /* Mantiene la proporción de la imagen */
     object-fit: cover; /* Cubre el contenedor sin deformar demasiado */
+    margin-top: 60px;
   }
   
   .carousel-overlay {
@@ -28,7 +30,7 @@
     top: 50%; /* Centra verticalmente */
     left: 50%; /* Centra horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta para el punto central */  
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo más opaco */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo más opaco */
     color: white;
     padding: 20px; /* Aumenta el padding para más espacio */
     border-radius: 10px; /* Bordes más redondeados */

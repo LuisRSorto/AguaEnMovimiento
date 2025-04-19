@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ImageSection = ({ id, title, text, imageSrc }) => {
+const ImageSection = ({ id, title, text, imageSrc, width, link}) => {
   return (
     <div 
         id={id} 
@@ -11,7 +11,7 @@ const ImageSection = ({ id, title, text, imageSrc }) => {
     >
           <h2 style={{marginBottom: 40}} className="tittle">{title}</h2>
           <i className="subTittle">{text}</i>
-          <img width="90%" height="auto" src={imageSrc} alt={`Imagen ${title}`} style={{borderRadius: '5px'}} />
+          <img width={width} height="auto" src={imageSrc} alt={`Imagen ${title}`} style={{borderRadius: '5px'}} />
     </div>
   );
 };

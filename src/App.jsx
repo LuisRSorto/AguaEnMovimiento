@@ -24,6 +24,9 @@ function App() {
   return (
     <>
     <BackgroundWaves />
+    <div className="hero-image-container">
+      <img src='/images/franja.png' alt={'Franja'} className="hero-image" />
+    </div>
       <NavBar/>
 
       <CarouselWithTimer images={images}/>
@@ -42,6 +45,15 @@ function App() {
       title= 'Ubicación'
       text='Universidad Pedagógica Nacional Francisco Morazán, Tegucigalpa'
       imageSrc='images/mapa.png'
+      width={'60%'}
+      />
+
+      <ImageSection
+      id='3'
+      title= 'Mapa UPNFM'
+      text=''
+      imageSrc='images/mapaupn.png'
+      width={'60%'}
       />
     
       <Container sx={{textAlign: 'center'}}>

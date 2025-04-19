@@ -53,6 +53,18 @@
    justify-content: center;
  }
 
+ .hero-image-container {
+  width: 100%; /* Ocupa todo el ancho del contenedor padre */
+  margin-bottom: 20px; /* Espacio entre la imagen y el carrusel (ajusta según necesites) */
+}
+
+.hero-image {
+  display: block; /* Evita espacio extra debajo de la imagen */
+  width: 100%; /* La imagen se ajusta al ancho del contenedor */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  object-fit: contain; /* Asegura que la imagen completa sea visible dentro del contenedor, sin recortar y manteniendo su proporción. Puedes probar 'cover' si prefieres que cubra todo el espacio, pero podría recortar partes de la imagen. */
+}
+
 
 
  .element {
