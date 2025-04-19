@@ -3,7 +3,7 @@ import './App.css'
 import NavBar from './Components/Navbar/Navbar'
 import CarouselWithTimer from './Components/CarouselWithTimer/CarouselWithTimer'
 import Footer from './Components/Footer/footer'
-import { Box, Container } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import InformationPanels from './Components/Panels/informationPanels';
 import ImageSection from './Components/imageSection'
 import TextSection from './Components/textSection'
@@ -37,7 +37,7 @@ function App() {
       videoUrl='/videos/Aguaenmovimiento.mp4'
       />
      
-      <h1 id='2' style={{color: "rgb(37, 0, 52)"}}>Módulos:</h1>
+      <h1 className={'tittle'} id='2' style={{color: "rgb(37, 0, 52)"}}>Módulos:</h1>
       <InformationPanels />
 
       <ImageSection
@@ -55,15 +55,28 @@ function App() {
       imageSrc='images/mapaupn.png'
       width={'60%'}
       />
+      <div style={{ margin: '50px', display:'flex', flexDirection:'column', justifyContent:'center', alignItems: 'center'}}>
+        <Typography component="h2" variant='h5' color="textSecondary" sx={{maxWidth:'80%'}}> En el Marco del Proyecto “Hacia una gestión SMART y Sostenible del agua en comunidades de Centroamérica, a través de investigación y educación innovadora e inclusiva (Gestión SMART-S del Agua)”</Typography>
+        <img 
+            width="auto"
+            style={{margin: '30px'}} 
+            height="100px"
+            src={'/images/LOGO.png'} 
+            onClick={() =>
+            (window.open('https://usac.edu.gt/', '_blank')
+            )}
+            alt='aem' 
+          />
+      </div>
     
       <Container sx={{textAlign: 'center'}}>
-        <h1 style={{color: "rgb(37, 0, 52)"}}>Organizadores:</h1>
+        <h1 className={'tittle'} style={{color: "rgb(37, 0, 52)"}}>Miembros del consorcio:</h1>
         <Box sx={{display:'flex', flexWrap: 'wrap',  justifyContent: { xs: 'center', md: 'space-around' }, alignItems: { xs: 'none', md: 'center' }, marginBottom: '40px'}}>
         <Box sx={{display:'flex', flexWrap: 'wrap', flexDirection: { xs: 'column', sm: 'row'}, justifyContent:'center', alignItems:'center'}} >
           <img 
-            width="220px"
-            style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
+            width="auto"
+            style={{margin: '30px 40px 30px 0px'}} 
+            height="60px"
             className="patroImg" 
             src={'/images/usac.png'} 
             onClick={() =>
@@ -72,9 +85,9 @@ function App() {
             alt='usac' 
           />
           <img 
-            width="130px"
+            width="auto"
             style={{margin: '30px 20px 30px 0px'}} 
-            height="150px"
+            height="130px"
             className="patroImg" 
             src={'images/upnfm.png'}
             onClick={() =>
@@ -84,9 +97,9 @@ function App() {
           />
           
           <img 
-            width="200px"
+            width="auto"
             style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
+            height="130px"
             className="patroImg" 
             src={'images/ucr.png'} 
             onClick={() =>
@@ -107,11 +120,12 @@ function App() {
             alt='tecm' 
             />
           </Box>
+          <h1 className={'tittle'} style={{color: "rgb(37, 0, 52)"}}>Con el patrocinio de:</h1>
           <Box sx={{display:'flex', flexWrap: 'wrap', flexDirection: { xs: 'column', sm: 'row'}, justifyContent:'center', alignItems:'center'}} >
             <img 
-            width="220px" 
+            width="auto" 
             style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
+            height="140px"
             className="patroImg" 
             src={'images/idrccrdi.png'} 
             onClick={() =>
@@ -120,9 +134,9 @@ function App() {
             alt='idrccrdi' />
 
             <img 
-            width="220px" 
+            width="auto" 
             style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
+            height="180px"
             className="patroImg" 
             src={'images/csuca.png'} 
             onClick={() =>
@@ -131,9 +145,9 @@ function App() {
             alt='csuca' />
 
             <img 
-            width="220px" 
+            width="auto" 
             style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
+            height="180px"
             className="patroImg" 
             src={'images/ctcap.png'} 
             onClick={() =>
@@ -142,9 +156,9 @@ function App() {
             alt='ctcap' />
 
             <img 
-            width="220px" 
+            width="auto" 
             style={{margin: '30px 20px 30px 0px'}} 
-            height="auto"
+            height="150px"
             className="patroImg" 
             src={'images/SICA.png'} 
             onClick={() =>

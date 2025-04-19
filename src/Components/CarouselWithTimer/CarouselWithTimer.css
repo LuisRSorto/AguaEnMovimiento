@@ -18,12 +18,12 @@
   .carousel-image {
     /*display: block;*/
     border-radius: 10px;
-    width: 85%;
+    width: 80%;
     height: auto; /* Mantiene la proporción de la imagen */
     object-fit: cover; /* Cubre el contenedor sin deformar demasiado */
-    margin-top: 60px;
+    margin-top: 50px;
   }
-  
+
   .carousel-overlay {
     position: absolute;
     font-size: 16px;
@@ -51,5 +51,10 @@
     .carousel-overlay {
       width: 80%;
       font-size: 12px;
+    }
+
+    .carousel-image {
+      width: 100%;
+      margin-top: 10px;
     }
   }

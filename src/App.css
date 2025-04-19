@@ -55,7 +55,7 @@
 
  .hero-image-container {
   width: 100%; /* Ocupa todo el ancho del contenedor padre */
-  margin-bottom: 20px; /* Espacio entre la imagen y el carrusel (ajusta según necesites) */
+  margin-bottom: 15px; /* Espacio entre la imagen y el carrusel (ajusta según necesites) */
 }
 
 .hero-image {
