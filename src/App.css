@@ -98,6 +98,11 @@
   font-size: 1.5em;
 }
 
+.modalText{
+  color: black;
+  max-width: 500px;
+}
+
 /*Acerca del evento*/
 @media (max-width: 768px) {
   .section {

@@ -61,9 +61,9 @@ function App() {
             width="auto"
             style={{margin: '30px'}} 
             height="100px"
-            src={'/images/LOGO.png'} 
+            src={'/images/LOGOSMART.png'} 
             onClick={() =>
-            (window.open('https://usac.edu.gt/', '_blank')
+            (window.open('https://aguaenmovimiento.org/', '_blank')
             )}
             alt='aem' 
           />
