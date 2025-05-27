@@ -7,7 +7,6 @@ import { Box, Container, Typography } from '@mui/material';
 import InformationPanels from './Components/Panels/informationPanels';
 import ImageSection from './Components/imageSection'
 import TextSection from './Components/textSection'
-import VideoSection from './Components/videoSection'
 import BackgroundWaves from './Components/backgroundWaves'
 
 function App() {

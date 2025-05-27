@@ -27,14 +27,15 @@ const Countdown = () => {
   }, []);
 
   const duration = moment.duration(remainingTime);
-
+  console.log(moment())
   return (
     <div className="carousel-caption">
       <h2 >24, 25 y 26 de Abril</h2>
       <h2 style={{color: '#ffdf00'}}><FaLocationDot/> Campus Central UPNFM</h2>
-      <h2>
+     {/* <h2>
         {duration.days()} Días, {duration.hours()} Horas, {duration.minutes()} Minutos, {duration.seconds()} Segundos
-      </h2>
+      </h2>*/}
+      
     </div>
   );
 };
