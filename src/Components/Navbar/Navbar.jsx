@@ -92,7 +92,7 @@ function NavBar() {
                 <ScrollLink
                   to={page.id}
                   onClick={page.id==='4' ? () =>
-                (window.open('https://docs.google.com/forms/d/e/1FAIpQLSegqm7cDRzM5udR2UjMufd-sd1rac0oQKUOAhSx9234U0IUgg/viewform', '_blank')
+                (window.open('https://forms.gle/QsdiWxpH6gzEp4JP6', '_blank')
                 ) : handleCloseNavMenu}
                   smooth={true}
                   duration={500}

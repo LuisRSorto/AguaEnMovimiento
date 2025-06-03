@@ -42,11 +42,11 @@ function App() {
       <ImageSection
       id='3'
       title= 'Ubicación'
-      text='Universidad Pedagógica Nacional Francisco Morazán, Tegucigalpa'
+      text='CUR San Pedro Sula, Universidad Pedagógica Nacional Francisco Morazán'
       imageSrc='images/mapa.png'
       width={'60%'}
       />
-
+{/* 
       <ImageSection
       id='3'
       title= 'Mapa UPNFM'
@@ -54,6 +54,7 @@ function App() {
       imageSrc='images/mapaupn.png'
       width={'60%'}
       />
+*/}
       <div style={{ margin: '50px', display:'flex', flexDirection:'column', justifyContent:'center', alignItems: 'center'}}>
         <Typography component="h2" variant='h5' color="textSecondary" sx={{maxWidth:'80%'}}> En el Marco del Proyecto “Hacia una gestión SMART y Sostenible del agua en comunidades de Centroamérica, a través de investigación y educación innovadora e inclusiva (Gestión SMART-S del Agua)”</Typography>
         <img 

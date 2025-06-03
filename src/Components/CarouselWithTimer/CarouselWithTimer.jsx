@@ -5,7 +5,7 @@ import './CarouselWithTimer.css'; // Importa el archivo de estilos
 import { Carousel } from 'react-responsive-carousel';
 
 const Countdown = () => {
-  const targetDate = moment('2025-04-24', 'YYYY-MM-DD');
+  const targetDate = moment('2025-06-12', 'YYYY-MM-DD');
   const [remainingTime, setRemainingTime] = useState(targetDate.diff(moment()));
 
   useEffect(() => {
@@ -30,11 +30,11 @@ const Countdown = () => {
   console.log(moment())
   return (
     <div className="carousel-caption">
-      <h2 >24, 25 y 26 de Abril</h2>
-      <h2 style={{color: '#ffdf00'}}><FaLocationDot/> Campus Central UPNFM</h2>
-     {/* <h2>
+      <h2 >12, 13 y 14 de junio</h2>
+      <h2 style={{color: '#ffdf00'}}><FaLocationDot/> CUR San Pedro Sula UPNFM</h2>
+      <h2>
         {duration.days()} Días, {duration.hours()} Horas, {duration.minutes()} Minutos, {duration.seconds()} Segundos
-      </h2>*/}
+      </h2>
       
     </div>
   );
