@@ -8,13 +8,11 @@ import InformationPanels from './Components/Panels/informationPanels';
 import ImageSection from './Components/imageSection'
 import TextSection from './Components/textSection'
 import BackgroundWaves from './Components/backgroundWaves'
+import ImageGalleryModal from './Components/photosGallery/ImageGalleryModal'
 
 function App() {
   const images = [
-    '/images/carousel1.png',
-    '/images/carousel2.png',
-    '/images/carousel3.png',
-    '/images/carousel4.png',
+    '/images/carouselsps1.png',
   ];
 
   const videoURL = '/videos/Aguaenmovimiento.mp4'; // Ruta a tu archivo .mp4 en la carpeta public o assets
@@ -43,10 +41,13 @@ function App() {
       id='3'
       title= 'Ubicación'
       text='CUR San Pedro Sula, Universidad Pedagógica Nacional Francisco Morazán'
-      imageSrc='images/mapa.png'
+      imageSrc='images/mapasps.png'
       width={'60%'}
       />
-{/* 
+ <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
+        <ImageGalleryModal />
+      </Box>
+{/*
       <ImageSection
       id='3'
       title= 'Mapa UPNFM'

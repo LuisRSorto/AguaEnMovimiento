@@ -31,7 +31,7 @@ const Countdown = () => {
   return (
     <div className="carousel-caption">
       <h2 >12, 13 y 14 de junio</h2>
-      <h2 style={{color: '#ffdf00'}}><FaLocationDot/> CUR San Pedro Sula UPNFM</h2>
+      <h2 style={{color: '#ffdf00'}}><FaLocationDot/> CUR San Pedro Sula, UPNFM</h2>
       <h2>
         {duration.days()} Días, {duration.hours()} Horas, {duration.minutes()} Minutos, {duration.seconds()} Segundos
       </h2>
