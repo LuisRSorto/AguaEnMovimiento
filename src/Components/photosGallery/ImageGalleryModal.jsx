@@ -65,7 +65,7 @@ const ImageGalleryModal = () => {
         onClick={handleOpen}
         sx={{ m: 2 }} // Un poco de margen para que no esté pegado
       >
-        Ver Galería de Imágenes
+        Ver Biblioteca de Imágenes
       </Button>
 
       <Modal
@@ -124,7 +124,7 @@ const ImageGalleryModal = () => {
                         </Typography>
                         {image.category && (
                           <Typography variant="caption" color="text.disabled">
-                            Categoría: {image.category}
+                            {image.category}
                           </Typography>
                         )}
                       </CardContent>

@@ -37,6 +37,10 @@ function App() {
       <h1 className={'tittle'} id='2' style={{color: "rgb(37, 0, 52)"}}>Módulos:</h1>
       <InformationPanels />
 
+      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
+        <ImageGalleryModal />
+      </Box>
+
       <ImageSection
       id='3'
       title= 'Ubicación'
@@ -44,18 +48,15 @@ function App() {
       imageSrc='images/mapasps.png'
       width={'60%'}
       />
- <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
-        <ImageGalleryModal />
-      </Box>
-{/*
+
       <ImageSection
       id='3'
-      title= 'Mapa UPNFM'
+      title= 'Mapa UPNFM, CRU SPS'
       text=''
-      imageSrc='images/mapaupn.png'
+      imageSrc='images/mapagupnfmsps.png'
       width={'60%'}
       />
-*/}
+
       <div style={{ margin: '50px', display:'flex', flexDirection:'column', justifyContent:'center', alignItems: 'center'}}>
         <Typography component="h2" variant='h5' color="textSecondary" sx={{maxWidth:'80%'}}> En el Marco del Proyecto “Hacia una gestión SMART y Sostenible del agua en comunidades de Centroamérica, a través de investigación y educación innovadora e inclusiva (Gestión SMART-S del Agua)”</Typography>
         <img 
