@@ -2,7 +2,7 @@
 
 export const imagesData = [
     { id: 'img1', src: '/images/mapaupn.png', alt: 'Mapa general UPNFM', category: 'I Edición, Campus Central UPNFM' },
-    { id: 'img19', src: '/images/mapagupnfmsps.png', alt: 'Mapa general UPNFM SPS', category: 'II Edición, CUR SPS' },
+    { id: 'imgm', src: '/images/mapagupnfmsps.png', alt: 'Mapa general UPNFM SPS', category: 'II Edición, CUR SPS' },
     { id: 'img2', src: '/images/gallery/fotob1.png', alt: 'Agua limpia', category: 'Módulos' },
     { id: 'img3', src: '/images/gallery/fotob2.png', alt: 'Ara Macao School, cierre El futuro del agua', category: 'I Edición, Campus Central UPNFM' },
     { id: 'img4', src: '/images/gallery/fotob3.png', alt: 'Autoridades, Agua para siempre', category: 'Módulos' },
