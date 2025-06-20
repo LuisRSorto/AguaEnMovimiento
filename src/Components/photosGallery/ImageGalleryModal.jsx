@@ -65,7 +65,7 @@ const ImageGalleryModal = () => {
         onClick={handleOpen}
         sx={{ m: 2 }} // Un poco de margen para que no esté pegado
       >
-        Ver Biblioteca de Imágenes
+        Ver Galería de Imágenes
       </Button>
 
       <Modal

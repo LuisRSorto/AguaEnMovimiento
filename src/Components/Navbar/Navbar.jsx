@@ -13,12 +13,14 @@ import MenuItem from '@mui/material/MenuItem';
 
 // Importa la imagen (asegúrate de que la ruta sea correcta)
 import logoImage from '../../../public/images/logonavbar.png';
+import ImageGalleryModal from '../photosGallery/ImageGalleryModal';
 
 const pages = [
   { id: '1', etiqueta: 'Acerca del evento' },
   { id: '2', etiqueta: 'Módulos' },
   { id: '3', etiqueta: 'Ubicacion' },
   { id: '4', etiqueta: 'Agende su visita' },
+  { id: '5', etiqueta: 'Galería' },
 ];
 
 function NavBar() {
@@ -92,8 +94,8 @@ function NavBar() {
                 <ScrollLink
                   to={page.id}
                   onClick={page.id==='4' ? () =>
-                (window.open('https://forms.gle/QsdiWxpH6gzEp4JP6', '_blank')
-                ) : handleCloseNavMenu}
+                (window.open('https://forms.gle/nH3Lg4pib4B8ShWa9', '_blank')
+                ) : page.id==='5' ? () => <ImageGalleryModal/> : handleCloseNavMenu}
                   smooth={true}
                   duration={500}
                   key={page.id}
@@ -135,8 +137,8 @@ function NavBar() {
               <ScrollLink to={page.id} smooth={true} duration={500} key={page.id}>
                 <Button
                   onClick={page.id==='4' ? () =>
-                (window.open('https://forms.gle/QsdiWxpH6gzEp4JP6', '_blank')
-                ) : handleCloseNavMenu}
+                (window.open('https://forms.gle/nH3Lg4pib4B8ShWa9', '_blank')
+                ) : page.id==='5' ? () => <ImageGalleryModal/> : handleCloseNavMenu}
                   sx={{ my: 2, color: 'white', display: 'block' }}
                 >
                   {page.etiqueta}

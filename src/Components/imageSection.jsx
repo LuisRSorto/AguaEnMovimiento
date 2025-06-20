@@ -6,7 +6,7 @@ const ImageSection = ({ id, title, text, imageSrc, width, link}) => {
         id={id} 
         className="ImageSection"
         onClick={() =>
-            (window.open('https://maps.app.goo.gl/mSqZ8GPtQ5eEwzxc7', '_blank')
+            (window.open('https://maps.app.goo.gl/DLaprBgy9onogxwp8', '_blank')
         )}
     >
           <h2 style={{marginBottom: 40}} className="tittle">{title}</h2>

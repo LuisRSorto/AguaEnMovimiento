@@ -12,7 +12,10 @@ import ImageGalleryModal from './Components/photosGallery/ImageGalleryModal'
 
 function App() {
   const images = [
-    '/images/carouselsps1.png',
+    '/images/carouseldanli.png',
+    '/images/gallery/fotob35.png',
+    '/images/gallery/fotob31.png',
+    '/images/gallery/fotob27.png',
   ];
 
   const videoURL = '/videos/Aguaenmovimiento.mp4'; // Ruta a tu archivo .mp4 en la carpeta public o assets
@@ -37,25 +40,25 @@ function App() {
       <h1 className={'tittle'} id='2' style={{color: "rgb(37, 0, 52)"}}>Módulos:</h1>
       <InformationPanels />
 
-      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
+      <Box id='5' sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
         <ImageGalleryModal />
       </Box>
 
       <ImageSection
       id='3'
       title= 'Ubicación'
-      text='CUR San Pedro Sula, Universidad Pedagógica Nacional Francisco Morazán'
-      imageSrc='images/mapasps.png'
+      text='CRU Danlí, Universidad Pedagógica Nacional Francisco Morazán'
+      imageSrc='images/mapadanli.png'
       width={'60%'}
       />
 
-      <ImageSection
+     { /*<ImageSection
       id='3'
       title= 'Mapa UPNFM, CRU SPS'
       text=''
       imageSrc='images/mapagupnfmsps.png'
       width={'60%'}
-      />
+      />*/}
 
       <div style={{ margin: '50px', display:'flex', flexDirection:'column', justifyContent:'center', alignItems: 'center'}}>
         <Typography component="h2" variant='h5' color="textSecondary" sx={{maxWidth:'80%'}}> En el Marco del Proyecto “Hacia una gestión SMART y Sostenible del agua en comunidades de Centroamérica, a través de investigación y educación innovadora e inclusiva (Gestión SMART-S del Agua)”</Typography>

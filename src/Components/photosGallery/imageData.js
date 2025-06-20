@@ -2,6 +2,7 @@
 
 export const imagesData = [
     { id: 'img1', src: '/images/mapaupn.png', alt: 'Mapa general UPNFM', category: 'I Edición, Campus Central UPNFM' },
+    { id: 'img19', src: '/images/mapagupnfmsps.png', alt: 'Mapa general UPNFM SPS', category: 'II Edición, CUR SPS' },
     { id: 'img2', src: '/images/gallery/fotob1.png', alt: 'Agua limpia', category: 'Módulos' },
     { id: 'img3', src: '/images/gallery/fotob2.png', alt: 'Ara Macao School, cierre El futuro del agua', category: 'I Edición, Campus Central UPNFM' },
     { id: 'img4', src: '/images/gallery/fotob3.png', alt: 'Autoridades, Agua para siempre', category: 'Módulos' },
@@ -18,6 +19,26 @@ export const imagesData = [
     { id: 'img15', src: '/images/gallery/fotob14.png', alt: 'Estudiantes universitarios, Agua limpia', category: 'Módulos' },
     { id: 'img16', src: '/images/gallery/fotob15.png', alt: 'Estudiantes universitarios, Agua para siempre', category: 'Módulos' },
     { id: 'img17', src: '/images/gallery/fotob16.png', alt: 'Material del agua como derecho universal', category: 'I Edición, Campus Central UPNFM' },
+    { id: 'img18', src: '/images/gallery/fotob17.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob18.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob19.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob20.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob21.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob22.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob23.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob24.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob25.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob26.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob27.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob28.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob29.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob30.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob31.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob32.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob33.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob34.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob35.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img18', src: '/images/gallery/fotob36.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
     // Agrega más imágenes según tus necesidades
   ];
   
