@@ -30,12 +30,15 @@ const Countdown = () => {
   console.log(moment())
   return (
     <div className="carousel-caption">
-      <h2 >26, 27 y 28 de junio</h2>
-      <h2 style={{color: '#ffdf00'}}><FaLocationDot/> CRU Danlí, UPNFM</h2>
-      <h2>
+      {/* 
+        <h2 >26, 27 y 28 de junio</h2>
+     */}
+      <h2 style={{color: '#ffdf00'}}><FaLocationDot/> PROXIMAMENTE EN COMAYAGUA</h2>
+     {/* 
+     <h2>
         {duration.days()} Días, {duration.hours()} Horas, {duration.minutes()} Minutos, {duration.seconds()} Segundos
       </h2>
-      
+      */}
     </div>
   );
 };

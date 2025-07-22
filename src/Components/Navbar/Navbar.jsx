@@ -18,8 +18,8 @@ import ImageGalleryModal from '../photosGallery/ImageGalleryModal';
 const pages = [
   { id: '1', etiqueta: 'Acerca del evento' },
   { id: '2', etiqueta: 'Módulos' },
-  { id: '3', etiqueta: 'Ubicacion' },
-  { id: '4', etiqueta: 'Agende su visita' },
+ /* { id: '3', etiqueta: 'Ubicacion' },
+  { id: '4', etiqueta: 'Agende su visita' },*/
   { id: '5', etiqueta: 'Galería' },
 ];
 

@@ -12,10 +12,10 @@ import ImageGalleryModal from './Components/photosGallery/ImageGalleryModal'
 
 function App() {
   const images = [
-    '/images/carouseldanli.png',
     '/images/gallery/fotob35.png',
     '/images/gallery/fotob31.png',
     '/images/gallery/fotob27.png',
+    '/images/gallery/fotob43.png',
   ];
 
   const videoURL = '/videos/Aguaenmovimiento.mp4'; // Ruta a tu archivo .mp4 en la carpeta public o assets
@@ -44,7 +44,7 @@ function App() {
         <ImageGalleryModal />
       </Box>
 
-      <ImageSection
+      { /* <ImageSection
       id='3'
       title= 'Ubicación'
       text='CRU Danlí, Universidad Pedagógica Nacional Francisco Morazán'
@@ -52,7 +52,7 @@ function App() {
       width={'60%'}
       />
 
-     { /*<ImageSection
+    <ImageSection
       id='3'
       title= 'Mapa UPNFM, CRU SPS'
       text=''

@@ -39,6 +39,15 @@ export const imagesData = [
     { id: 'img35', src: '/images/gallery/fotob34.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
     { id: 'img36', src: '/images/gallery/fotob35.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
     { id: 'img37', src: '/images/gallery/fotob36.png', alt: 'Exposición itinerante SPS', category: 'II Edición, CUR SPS' },
+    { id: 'img38', src: '/images/gallery/fotob37.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img39', src: '/images/gallery/fotob38.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img40', src: '/images/gallery/fotob39.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img41', src: '/images/gallery/fotob40.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img42', src: '/images/gallery/fotob41.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img43', src: '/images/gallery/fotob42.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img44', src: '/images/gallery/fotob43.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img45', src: '/images/gallery/fotob44.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
+    { id: 'img46', src: '/images/gallery/fotob45.png', alt: 'Exposición itinerante Danli', category: 'III Edición, CRU Danlí' },
     // Agrega más imágenes según tus necesidades
   ];
   
